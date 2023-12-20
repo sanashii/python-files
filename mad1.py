@@ -1,0 +1,18 @@
+adj1 = input("Adjective: ")
+adj2 = input("Adjective: ")
+boord = input("Type of bird: ")
+room = input("Room in a house: ")
+verb = input("Verb (past tense): ")
+verb1 = input("Verb: ")
+name = input("Relative's name: ")
+noun1 = input("Noun: ")
+liquid = input("A liquid: ")
+verb2 = input("Verb ending in 'ing': ")
+body = input("Part of the body (plural): ")
+plural = input("Plural noun: ")
+verb3 = input("Verb ending in 'ing': ")
+noun2 = input("Noun: ")
+
+madlib = f"It was a {adj1}, cold November day. I woke up to the {adj2} smell of {boord} roasting in the {room} downstairs. I {verb} down the stairs to see if I could help {verb1} the dinner. My mom said, 'See if {name} needs a fresh {noun1}.' So I carried a tray of glasses full of {liquid} into the {verb2} room. When I got there, I couldn't believe my {body}! There were {plural} {verb3} on the {noun2}"
+print("\n")
+print(madlib)
